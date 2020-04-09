@@ -78,10 +78,3 @@ function tune(guitarStrings) {
 
     return res;
 }
-
-console.log(tune([387.63, 346.94, 207, 156.83, 120, 92.41]));
-console.log(tune([0,0,0,0,0,0]));
-console.log(tune([55,1,2,-23450,-10,-100]));
-console.log(tune([Number(0),Number(0),Number(0),Number(0),Number(0),Number(0)]));
-console.log(tune([Number(329.63),Number(246.94),Number(196),Number(146.83),Number(110),Number(82.41)]));
-console.log(tune([Number(330.63),Number(246),Number(1196),Number(-1416.83),Number(1110),Number(182.41)]));
